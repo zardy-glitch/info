@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'XPLOR';
+  src: url('fonts/XPLOR-Bold-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'XPLOR', sans-serif;
+  background-color: #A7F432;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+  position: relative;
+}
+
+.menu-btn {
+  width: 100%;
+  max-width: 100%;
+  padding: 25px;
+  margin: 8px 0;
+  background-color: #4CBB17;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.menu-btn:hover {
+  background-color: #D0F0C0;
+}
+
+.class-label {
+  margin-top: 20px;
+  font-size: 40px;
+  color: black;
+}
+
+input, textarea {
+  width: 90%;
+  max-width: 500px;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 18px;
+  border: 1px solid #444;
+  border-radius: 8px;
+}
+
+table {
+  width: 90%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 12px;
+  text-align: center;
+  background-color: #C8F78A;
+}
+
+.lesson {
+  width: 90%;
+  max-width: 500px;
+  background-color: #3E6B3E;
+  color: black;
+  margin: 8px 0;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.home-btn {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
